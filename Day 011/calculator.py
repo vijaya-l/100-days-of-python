@@ -46,7 +46,7 @@ calculator = {
     "/": div,
 }
 
-num1 = float(input("enter first number"))
+num1 = float(input("enter first number: "))
 
 for operation in calculator:
     print(operation)
@@ -54,7 +54,7 @@ operation_symbol = input("pick the operaion symbol from the above list")
 calc = calculator[operation_symbol]
 print(calc)
 
-num2 = float(input("enter 2nd number "))
+num2 = float(input("enter 2nd number: "))
 
 answer = calc(num1, num2)
 # print(answer)
