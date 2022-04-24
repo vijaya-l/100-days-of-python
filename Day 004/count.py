@@ -26,4 +26,4 @@ love = l + o + v + e
 
 true_love = str(true) + str(love)
 
-print(true_love)
+print(f"Your love is {true_love}%")

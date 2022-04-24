@@ -52,7 +52,6 @@ for operation in calculator:
     print(operation)
 operation_symbol = input("pick the operaion symbol from the above list")
 calc = calculator[operation_symbol]
-print(calc)
 
 num2 = float(input("enter 2nd number: "))
 
