@@ -1,10 +1,18 @@
 # python-learning
 Small programs to learn Python
-
-
 ## Useful commands
 
-setup Python virtual en
+
+### git commands:
+
+```
+1. git add .
+2. git status
+3. git commit -m"Message"
+4. git push
+ ```  
+
+setup Python virtual env
 
 ```
 python3 -m venv venv
@@ -44,4 +52,6 @@ python -m pip install -U prettytable
 pretty table:  displaying tabular data in a visually appealing ASCII table format
 https://pypi.org/project/prettytable/
 
-
+```
+pokemondb
+```
