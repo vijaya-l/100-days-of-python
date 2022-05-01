@@ -27,5 +27,5 @@ answer = dict(person)
 # alternate soln:
 # answer = {thing[0]: thing[1] for thing in person}
 
-vov = {["a", "e", "i", "ou"]: 0}
-print(vov)
+check = {count: chr(count) for count in range(65, 91)}
+print(check)
