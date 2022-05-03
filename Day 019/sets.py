@@ -9,7 +9,6 @@ print(SOUND_MIXER_DIGITAL1)
 
 # remove item
 # set.discard("c")
-# print(set)
 
 # join 2 sets together and it removes duplicate
 

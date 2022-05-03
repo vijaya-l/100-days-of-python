@@ -55,3 +55,16 @@ https://pypi.org/project/prettytable/
 ```
 pokemondb
 ```
+
+
+
+# Install request library 
+```
+python -m pip install requests
+```
+# https://opentdb.com/
+
+
+
+# List
+name=["apple",4,True,8.9]
