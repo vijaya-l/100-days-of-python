@@ -67,4 +67,12 @@ python -m pip install requests
 
 
 # List
+```
 name=["apple",4,True,8.9]
+```
+
+# Parameter Ordering
+1.Parameters
+2.*args
+3.default parameters
+4.**kwargs
