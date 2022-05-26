@@ -1,36 +1,28 @@
+from pyexpat.errors import messages
+
+
 chat = """
-Prahlad Rao to Everyone (8:03 PM)
 Prahlad Rao
-Prakash Udupa to Everyone (8:03 PM)
-Medha Udupa
-Swathi to Everyone (8:04 PM)
-Swathi
-Guurumoorthy to Everyone (8:04 PM)
+Guurumoorthy to Everyone (8:01 PM)
 Gurumoorthy R
-Maanya to Everyone (8:04 PM)
-Maanya H
-Aadhya to Everyone (8:04 PM)
-Aadhya Anand
-Niyati to Everyone (8:05 PM)
-Niyati Makkithaya
-Siddharth Poyapakkam to Everyone (8:05 PM)
+Siddharth Poyapakkam to Everyone (8:01 PM)
 Siddharth Poyapakkam
-Rashmi to Everyone (8:05 PM)
-Rashmi H
-Niha Udipi to Everyone (8:05 PM)
-Niha Udipi
-Inchara Aithal to Everyone (8:05 PM)
-Inchara Aithal
-Ranjana rao to Everyone (8:05 PM)
+Niyati to Everyone (8:01 PM)
+niyati
+no
+Aadhya to Everyone (8:03 PM)
+Aadhya Anand
+Aditi Adiga to Everyone (8:03 PM)
+Aditi Adiga
+Hamsa Vinod to Everyone (8:04 PM)
+Hamsa V
+Aarush Goli to Everyone (8:04 PM)
+Aarush
 Ranjana Rao
-Medha Udupa to Everyone (8:05 PM)
-Medha Udupa
-Prahlad Rao to Everyone (8:05 PM)
-Prahlad Rao
 """
 
 messages = chat.strip().splitlines()
-
+print(messages)
 attendence = []
 
 for message in messages:
@@ -39,7 +31,3 @@ for message in messages:
 
 for name in sorted(attendence):
     print(name)
-
-
-
-

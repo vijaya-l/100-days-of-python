@@ -1,0 +1,5 @@
+print("Rock")
+print("Paper")
+print("Scissors")
+user1=input("Enter your move:")
+user2=input("Enter your move:")

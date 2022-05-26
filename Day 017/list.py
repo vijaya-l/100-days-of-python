@@ -45,3 +45,6 @@ sounds.remove("wow")
 
 ##sort-- sorting list
 sounds.sort()
+
+# dir - list of operations
+print(dir(sounds))
